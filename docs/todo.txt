@@ -1,9 +1,5 @@
-Choose fonts, color scheme
 
-Favicon
-
-Font styles, 
-fading text 
+fading in/out 
  https://www.mercedes-benz.com/en/ 
 
 hero image
