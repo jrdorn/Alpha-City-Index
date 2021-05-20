@@ -9,3 +9,5 @@ wally.me
 
 JS pie chart 
 https://developers.google.com/chart/interactive/docs/gallery/piechart
+
+JS line chart

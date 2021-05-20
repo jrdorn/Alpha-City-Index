@@ -1,8 +1,10 @@
 google.charts.load("current", { packages: ["corechart"] });
-google.charts.setOnLoadCallback(drawChart);
+google.charts.setOnLoadCallback(drawPChart);
+google.charts.setOnLoadCallback(drawLChart);
 
-function drawChart() {
-  var data = google.visualization.arrayToDataTable([
+// pie chart
+function drawPChart() {
+  var pData = google.visualization.arrayToDataTable([
     ["Task", "Hours per Day"],
     ["Work", 11],
     ["Eat", 2],
@@ -11,7 +13,7 @@ function drawChart() {
     ["Sleep", 7],
   ]);
 
-  var options = {
+  var pOptions = {
     title: "My Daily Activities",
     fontName: "'Source Sans Pro', Arial, Helvetica, sans-serif",
     pieHole: 0.6,
@@ -32,9 +34,32 @@ function drawChart() {
     },
   };
 
-  var chart = new google.visualization.PieChart(
+  var pChart = new google.visualization.PieChart(
     document.getElementById("piechart")
   );
 
-  chart.draw(data, options);
+  pChart.draw(pData, pOptions);
+}
+
+//line chart
+function drawLChart() {
+  var lData = google.visualization.arrayToDataTable([
+    ["Year", "Sales", "Expenses"],
+    ["2004", 1000, 400],
+    ["2005", 1170, 460],
+    ["2006", 660, 1120],
+    ["2007", 1030, 540],
+  ]);
+
+  var lOptions = {
+    title: "Company Performance",
+    curveType: "function",
+    legend: { position: "bottom" },
+  };
+
+  var lChart = new google.visualization.LineChart(
+    document.getElementById("linechart")
+  );
+
+  lChart.draw(lData, lOptions);
 }
