@@ -2,7 +2,7 @@ Fade in/out
 https://www.mercedes-benz.com/en/ 
 
 Hero image
-testla.com
+tesla.com
 
 Design inspiration
 wally.me
@@ -10,4 +10,3 @@ wally.me
 JS pie chart 
 https://developers.google.com/chart/interactive/docs/gallery/piechart
 
-JS line chart

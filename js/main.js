@@ -1,6 +1,5 @@
 google.charts.load("current", { packages: ["corechart"] });
 google.charts.setOnLoadCallback(drawPChart);
-google.charts.setOnLoadCallback(drawLChart);
 
 // pie chart
 function drawPChart() {
@@ -39,27 +38,4 @@ function drawPChart() {
   );
 
   pChart.draw(pData, pOptions);
-}
-
-//line chart
-function drawLChart() {
-  var lData = google.visualization.arrayToDataTable([
-    ["Year", "Sales", "Expenses"],
-    ["2004", 1000, 400],
-    ["2005", 1170, 460],
-    ["2006", 660, 1120],
-    ["2007", 1030, 540],
-  ]);
-
-  var lOptions = {
-    title: "Company Performance",
-    curveType: "function",
-    legend: { position: "bottom" },
-  };
-
-  var lChart = new google.visualization.LineChart(
-    document.getElementById("linechart")
-  );
-
-  lChart.draw(lData, lOptions);
 }

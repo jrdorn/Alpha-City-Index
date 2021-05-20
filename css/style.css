@@ -35,17 +35,13 @@ html {
   grid-area: pie;
 }
 
-.lin {
-  grid-area: lin;
-}
-
 .footer {
   grid-area: footer;
 }
 
 body {
   display: grid;
-  grid-template-areas: "head" "pie" "lin" "footer";
+  grid-template-areas: "head" "pie" "footer";
   grid-template-rows: auto 1fr auto;
 }
 
@@ -64,6 +60,8 @@ html {
 
 h1 {
   font-family: "Zen Dots", Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.25em;
 }
 
 p {
@@ -73,16 +71,17 @@ p {
 
 /* || Components  */
 
+/* header */
+
+h1 {
+  margin: 0;
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+
 /* pie chart */
 
 #piechart {
-  width: 900px;
-  height: 500px;
-}
-
-/* line chart */
-
-#linechart {
   width: 900px;
   height: 500px;
 }
