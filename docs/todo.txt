@@ -10,5 +10,7 @@ wally.me
 JS pie chart 
 https://developers.google.com/chart/interactive/docs/gallery/piechart
 
-custom css scroll bar
 
+==============
+
+Make React app
