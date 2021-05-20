@@ -1,0 +1,70 @@
+/* || General Setup */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Source+Sans+Pro&family=Zen+Dots&display=swap");
+
+body {
+  background-color: #202124;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
+
+/* alternative box model */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* || Main Grid Layout */
+
+.head {
+  grid-area: head;
+}
+
+.graphs {
+  grid-area: graphs;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+body {
+  display: grid;
+  grid-template-areas: "head" "graphs" "footer";
+  grid-template-rows: auto 1fr auto;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* || Typography */
+
+html {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  color: #e7eaed;
+}
+
+h1 {
+  font-family: "Zen Dots", Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  color: #9aa0a5;
+}
+
+/* || Components  */
