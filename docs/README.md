@@ -1,8 +1,8 @@
 ## Introduction
 
-basis is a simple search engine for cryptocurrency.
+basis is a simple budget web app.
 
-I drew inspiration from Binance and Coinbase.
+I drew inspiration from Wally and Google Charts.
 
 ## Status
 
