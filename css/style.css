@@ -75,6 +75,19 @@ p {
   color: #9aa0a5;
 }
 
+#hero1 {
+  font-size: 4rem;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+}
+
+#hero2 {
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+}
+
 /* || Components  */
 
 /* header */
@@ -99,6 +112,26 @@ h1 {
   width: 100vw;
   height: 100vh;
   position: relative;
+}
+
+/* hero text */
+
+.herodiv {
+  display: flex;
+  justify-content: center;
+}
+
+#hero1 {
+  position: absolute;
+  margin: 0;
+
+  top: 30%;
+}
+
+#hero2 {
+  position: absolute;
+  margin: 0;
+  top: 40%;
 }
 
 /* pie chart */
