@@ -1,8 +1,9 @@
 ## Introduction
 
-basis is a simple budget web app.
+basis is a simple budget web app. Users can create, save, update, and remove
+budget categories to keep track of their monthly expenses.
 
-I drew inspiration from Wally and Google Charts.
+I drew design inspiration from Wally and Google Charts.
 
 ## Status
 

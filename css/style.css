@@ -94,6 +94,12 @@ p {
   font-size: 1.8rem;
 }
 
+label,
+input {
+  font-size: 1.5rem;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
 /* || Components  */
 
 /* header */
@@ -157,4 +163,10 @@ h1 {
   height: 100%;
   max-width: 1115px;
   max-height: 705px;
+}
+
+/* forms */
+
+.textInput {
+  padding: 0.5em;
 }

@@ -1,6 +1,3 @@
-Design inspiration
-wally.me
-
 ==============
 
 Make React app
