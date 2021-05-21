@@ -37,6 +37,7 @@ html {
 
 .pie {
   grid-area: pie;
+  border: 2px solid teal;
 }
 
 .footer {
@@ -44,10 +45,15 @@ html {
   margin-left: 2.5em;
 }
 
+.forms {
+  grid-area: forms;
+  border: 2px solid pink;
+}
+
 body {
   display: grid;
-  grid-template-areas: "head" "hero" "pie" "footer";
-  grid-template-rows: auto 1fr 1fr auto;
+  grid-template-areas: "head" "hero" "pie" "forms" "footer";
+  grid-template-rows: auto 1fr 1fr 1fr auto;
 }
 
 html,
