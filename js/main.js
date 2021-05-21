@@ -22,10 +22,9 @@ function drawPChart() {
     pieHole: 0.6,
     backgroundColor: "#202124",
     pieSliceText: "none",
-    // pieSliceTextStyle: {
-    //   color: "#e7eaed",
-    // },
     pieSliceBorderColor: "#202124",
+    width: "100%",
+    height: "100%",
     colors: [
       "#fc0100",
       "#fc6302",
@@ -48,3 +47,5 @@ function drawPChart() {
 
   pChart.draw(pData, pOptions);
 }
+
+window.onresize = drawPChart;

@@ -10,7 +10,10 @@ This project is currently under development.
 
 ## Features
 
--
+- Create new budget categories
+- Read budget saved in local storage
+- Update budget names and values
+- Delete unwanted budget categories
 
 ## Technologies
 
