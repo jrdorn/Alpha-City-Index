@@ -37,7 +37,7 @@ html {
 
 .pie {
   grid-area: pie;
-  border: 2px solid teal;
+  border: 2px solid maroon;
 }
 
 .footer {
@@ -169,4 +169,37 @@ h1 {
 
 .textInput {
   padding: 0.5em;
+}
+
+.forms {
+  border: 2px solid orangered;
+  display: grid;
+  justify-content: center;
+}
+
+.forms > * {
+  border: 2px solid turquoise;
+  display: flex;
+  justify-content: center;
+}
+
+#addInput {
+  color: red;
+}
+#addButton {
+  color: red;
+}
+
+#remInput {
+  color: blue;
+}
+#remButton {
+  color: blue;
+}
+
+#changeList {
+  color: greenyellow;
+}
+#changeButton {
+  color: greenyellow;
 }
