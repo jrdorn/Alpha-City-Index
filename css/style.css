@@ -189,6 +189,7 @@ label {
 }
 .textInput {
   padding: 0.5em;
+  padding-left: 0.7em;
   margin-right: 0.8em;
   width: 40%;
 }
