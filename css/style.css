@@ -232,11 +232,19 @@ label {
     left: 12em;
   }
 }
+
+@media (min-width: 760px) and (max-width: 1007px) {
+  #chart_wrap {
+    padding-top: 11em;
+  }
+}
+
 @media (min-width: 860px) {
   #piechart {
     left: 18em;
   }
 }
+
 @media (min-width: 1070px) {
   #piechart {
     left: 26em;
