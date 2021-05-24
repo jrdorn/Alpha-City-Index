@@ -52,7 +52,7 @@ html {
 body {
   display: grid;
   grid-template-areas: "head" "hero" "pie" "forms" "footer";
-  grid-template-rows: auto 1fr 1fr 1fr auto;
+  grid-template-rows: auto 1fr 1fr auto auto;
 }
 
 html,
@@ -157,7 +157,7 @@ h1 {
 #piechart {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 5em;
   width: 100%;
   height: 100%;
   max-width: 1115px;
@@ -167,13 +167,14 @@ h1 {
 /* forms */
 
 .forms {
-  /* border: 5px solid purple; */
+  /* border: 2px solid pink; */
+  position: relative;
+  bottom: 8em;
 }
 
 /**/
 
 .forms > * {
-  /* border: 5px solid turquoise; */
   display: flex;
   justify-content: center;
 }
@@ -214,4 +215,26 @@ label {
 }
 #changeButton {
   color: greenyellow;
+}
+
+/* || Media queries */
+/* @media (min-width: 610) {
+  .forms {
+    bottom: 37em;
+  }
+}
+@media (min-width: 760px) {
+  .forms {
+    bottom: 27em;
+  }
+} */
+@media (min-width: 1130px) {
+  #piechart {
+    left: 15em;
+  }
+}
+@media (min-width: 1365px) {
+  #piechart {
+    left: 25em;
+  }
 }
