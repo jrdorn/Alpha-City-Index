@@ -98,6 +98,11 @@ input {
   font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
 }
 
+.dropList {
+  font-size: 1.5rem;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+
 /* || Components  */
 
 /* header */
@@ -170,8 +175,6 @@ h1 {
   bottom: 10em;
 }
 
-/**/
-
 .forms > * {
   display: flex;
   justify-content: center;
@@ -189,12 +192,17 @@ label {
   margin-right: 0.8em;
   width: 40%;
 }
+.dropList {
+  padding: 0.5em;
+  margin-right: 0.8em;
+  width: 40%;
+  height: 2.54em;
+}
 .fButton {
   width: 5em;
 }
-/**/
 
-#addInput {
+/* #addInput {
   color: red;
 }
 #addButton {
@@ -213,7 +221,7 @@ label {
 }
 #changeButton {
   color: greenyellow;
-}
+} */
 
 /* || Media queries */
 @media (min-width: 610px) {
