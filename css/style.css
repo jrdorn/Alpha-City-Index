@@ -47,7 +47,6 @@ html {
 
 .forms {
   grid-area: forms;
-  border: 2px solid pink;
 }
 
 body {
@@ -167,21 +166,34 @@ h1 {
 
 /* forms */
 
-.textInput {
-  padding: 0.5em;
+.forms {
+  /* border: 5px solid purple; */
 }
 
-.forms {
-  border: 2px solid orangered;
-  display: grid;
-  justify-content: center;
-}
+/**/
 
 .forms > * {
-  border: 2px solid turquoise;
+  /* border: 5px solid turquoise; */
   display: flex;
   justify-content: center;
 }
+
+form {
+  margin-top: 1.5em;
+}
+label {
+  width: 8em;
+  padding-top: 0.6em;
+}
+.textInput {
+  padding: 0.5em;
+  margin-right: 0.8em;
+  width: 40%;
+}
+.fButton {
+  width: 5em;
+}
+/**/
 
 #addInput {
   color: red;
